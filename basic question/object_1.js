@@ -18,6 +18,10 @@ let cap = {
     age: 34,
     isAvenger: true
 }
+//traversing
+for(let key in cap){
+    console.log(key, " : ",cap[key])
+}
 //print 
 //console.log(cap);
 //console.log(cap.firstName);
@@ -46,7 +50,6 @@ console.log(cap);
 //if the key is not present you will get undefined;
 console.log(cap.abc);
 
-//traversing
 
 
 //diffrence b/w dot and square[]
