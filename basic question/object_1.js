@@ -42,3 +42,25 @@ cap[key]="DCU";
 //update
 cap.isAvenger=false;
 console.log(cap);
+
+//if the key is not present you will get undefined;
+console.log(cap.abc);
+
+//traversing
+
+
+//diffrence b/w dot and square[]
+let obj = {
+    name: "Rohit",
+    age: 23
+}
+//console.log(obj.name);
+//let key = "name";
+////varibale -> value get -> then searching
+//console.log(obj[key]);
+function getvalues(key){
+    // console.log(obj.key); // dot se exact variable match hota h
+    console.log(obj[key]);//square se uske under ki value dekhi jati h
+}
+getvalues("name");
+getvalues("age");
